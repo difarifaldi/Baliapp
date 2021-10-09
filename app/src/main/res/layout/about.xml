@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+
+                    <ImageView
+                        android:layout_width="81dp"
+                        android:layout_height="97dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/bali7" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/dance1"
+                        android:text="Bali Island"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/xaxa"
+                        android:textColor="#F06A90B5"
+                        android:textSize="54dp"
+                        android:layout_height="wrap_content" />
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="56dp">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/pe1"
+                        android:text="Bali is an island in Indonesia which is known for having green volcanic mountains, beaches, and beautiful coral reefs. There are many religious tourism spots such as Uluwatu Temple which stands on a cliff. In the South, the coastal town of Kuta offers a never-ending nightlife scene, while Seminyak, Sanur and Nusa Dua are known for their popular resort treats."
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textColor="#00008B"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <VideoView
+                        android:layout_marginTop="33dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/video_view"
+                        android:layout_width="429dp"
+                        android:layout_height="514dp" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
+</LinearLayout>
